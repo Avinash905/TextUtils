@@ -12,7 +12,7 @@ export default function Navbar(props) {
             className={`navbar-brand text-${
               props.mode === "light" ? "dark" : "light"
             }`}
-            to="/"
+            to="/TextUtils"
           >
             TextUtils
           </NavLink>
@@ -35,7 +35,7 @@ export default function Navbar(props) {
                     props.mode === "light" ? "dark" : "light"
                   }`}
                   aria-current="page"
-                  to="/"
+                  to="/TextUtils"
                 >
                   Home
                 </NavLink>
@@ -46,7 +46,7 @@ export default function Navbar(props) {
                     props.mode === "light" ? "dark" : "light"
                   }`}
                   aria-current="page"
-                  to="/about"
+                  to="/TextUtils/about"
                 >
                   About
                 </NavLink>
